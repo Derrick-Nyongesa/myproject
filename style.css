@@ -19,10 +19,15 @@ body{
 .brand{
     text-align: center;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 h2{
     text-align: center;
+}
+
+.wrapper {
+    box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7);
 }
 
 .wrapper > * {
