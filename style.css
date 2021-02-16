@@ -42,3 +42,31 @@ h2{
 .description p{
     margin: 0 0 16px;
 }
+
+.form{
+    background: #f9feff;
+}
+
+.form form label{
+    display: block;
+}
+
+form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+form input,
+button{
+    width: 100%;
+    padding: 16px;
+}
+
+.box{
+    margin: 0;
+}
+
+.full{
+
+}
