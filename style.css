@@ -72,3 +72,9 @@ select{
 .full{
     grid-column: 1 / 3;
 }
+
+button{
+    background-color: #48d1cc;
+    border: 0;
+    text-transform: uppercase;
+}
