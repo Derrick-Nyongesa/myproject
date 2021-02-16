@@ -5,3 +5,4 @@ const femaleNames = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
 
 myForm.addEventListener("submit",(e) => {
     e.preventDefault();
+    const formData = new FormData(e.target); 
