@@ -28,6 +28,8 @@ h2{
 
 .wrapper {
     box-shadow: 0 0 20px 0 rgba(0, 9, 19, 0.7);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 }
 
 .wrapper > * {
@@ -77,4 +79,9 @@ button{
     background-color: #48d1cc;
     border: 0;
     text-transform: uppercase;
+}
+
+button:hover{
+    background: #92bde7;
+    color:#f4f4f4;
 }
